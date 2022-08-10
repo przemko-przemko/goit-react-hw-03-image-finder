@@ -23,10 +23,10 @@ const Searchbar = ({ getQuery }) => {
           <SearchLabel>Search</SearchLabel>
         </SearchButton>
         <SearchInput
-          class="input"
+          className="input"
           type="text"
           autocomplete="off"
-          autofocus
+          autoFocus
           placeholder="Search images and photos"
         />
       </SearchForm>
